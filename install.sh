@@ -2,5 +2,5 @@
 set -eux
 
 ruby --version
-gem install bundler
+gem spec bundler >/dev/null || gem install bundler
 bundle check || bundle install
