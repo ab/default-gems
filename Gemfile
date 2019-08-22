@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 # gem 'aws-sdk' # too chunderous
+gem 'aws-sdk-ec2'
+gem 'aws-sdk-s3'
 gem 'bcrypt'
 gem 'bundler'
 gem 'cheat'
@@ -13,6 +15,7 @@ gem 'net-sftp'
 gem 'net-ssh'
 gem 'pick'
 gem 'pry'
+gem 'pry-byebug'
 gem 'pry-doc'
 gem 'raise-if-root'
 gem 'rake'
