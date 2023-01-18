@@ -25,6 +25,7 @@ GEM
     byebug (11.1.3)
     cheat (1.3.3)
       pager (~> 1.0)
+    chunky_png (1.4.0)
     coderay (1.1.3)
     date (3.3.3)
     diff-lcs (1.5.0)
@@ -65,14 +66,23 @@ GEM
     net-ssh (7.0.1)
     netrc (0.11.0)
     pager (1.0.1)
+    paperback (0.0.4)
+      prawn (~> 1.3)
+      rqrcode (~> 0.10)
+      sixword (~> 0.3)
+      subprocess (~> 1.3)
     parallel (1.22.1)
     parser (3.2.0.0)
       ast (~> 2.4.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
+    pdf-core (0.4.0)
     pick (0.1.2)
       tty-prompt (~> 0.13)
       tty-screen (~> 0.5)
+    prawn (1.3.0)
+      pdf-core (~> 0.4.0)
+      ttfunk (~> 1.4.0)
     proxifier-fork (1.0.4)
     pry (0.14.1)
       coderay (~> 1.1)
@@ -100,6 +110,8 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     rexml (3.2.5)
+    rqrcode (0.10.1)
+      chunky_png (~> 1.0)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
@@ -139,6 +151,7 @@ GEM
     subprocess (1.5.6)
     tilt (2.0.11)
     timeout (0.3.1)
+    ttfunk (1.4.0)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
     tty-prompt (0.23.1)
@@ -177,6 +190,7 @@ DEPENDENCIES
   minitest
   net-sftp
   net-ssh
+  paperback
   pick
   pry
   pry-byebug
