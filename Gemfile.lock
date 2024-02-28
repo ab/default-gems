@@ -181,7 +181,7 @@ GEM
     uri (0.13.0)
     useragent (0.16.10)
     wisper (2.0.1)
-    yard (0.9.34)
+    yard (0.9.35)
     zokor (0.2.3)
       proxifier-fork (~> 1.0.4)
 
