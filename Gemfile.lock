@@ -214,7 +214,7 @@ GEM
     uri (1.1.1)
     useragent (0.16.11)
     wisper (2.0.1)
-    yard (0.9.38)
+    yard (0.9.42)
     zokor (0.2.4)
       proxifier-fork (~> 1.1.0)
 
@@ -360,7 +360,7 @@ CHECKSUMS
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
   useragent (0.16.11) sha256=700e6413ad4bb954bb63547fa098dddf7b0ebe75b40cc6f93b8d54255b173844
   wisper (2.0.1) sha256=ce17bc5c3a166f241a2e6613848b025c8146fce2defba505920c1d1f3f88fae6
-  yard (0.9.38) sha256=721fb82afb10532aa49860655f6cc2eaa7130889df291b052e1e6b268283010f
+  yard (0.9.42) sha256=4e2be01f8623556093497731d44c801e600d7c9759ec7a35a2dd5dd83bbbba68
   zokor (0.2.4) sha256=bfc1d5f10304c65ace8844fadb25d59e2700e94a9e23f9f73632d997e9860fd7
 
 BUNDLED WITH
